@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "ruler",
+    "content_scripts": [
+        {
+            "js": ["init.js"],
+            "matches": ["*://*.com/*"],
+            "css": ["index.css"]
+        }
+    ]
+}
